@@ -1,0 +1,196 @@
+.footer {
+    background: #070B11;
+    color: white;
+    padding: 50px;
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    clip-path: polygon(0 0,100% 0,100% 89%,0% 100%);
+    
+    
+}
+
+.container-footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    gap: 30px;
+    /* background-color: rgb(213, 207, 207); */
+    font-family: 'Inter',sans-serif;
+    /* background-color: rgb(23, 27, 64); */
+    clip-path: polygon(0 0,100% 0,100% 95%,0% 100%);
+    
+}
+.footer-logos {
+    /* display: flex; background-color: rgb(84, 34, 6); */
+    width: 100%;
+    height: 35rem;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.container-redes-socias {
+    display: flex;
+    /* align-self: center; */
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 15rem;
+    /* background-color: rgb(45, 53, 53); */
+}
+.footer-info-redes-socias {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.container-redes-socias h3 {
+    font-size: 25px;
+    color: #0af5b2;
+    /* color: #167BF7; */
+  
+
+}
+.info-footer-logo-final h2{
+    color: #167BF7;
+    color: #0af5b2;
+    /* color: #00c86f; */
+}
+.container-redes-socias h2 {
+    font-size: 35px;
+    color: #0af5b2;
+    /* color: #167BF7; */
+}
+
+/* .redes-social-icons {
+    width: 250px;
+    height: 50px;
+    background-color: #167BF7;
+} */
+.info-footer-logo-final {
+    width: 100%;
+    height: 20rem;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.div-final-input {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.div-final-input input {
+    width: 500px;
+    height: 65px;
+
+    border: 2px solid rgb(108, 105, 105);
+}
+.info-mensagem {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.info-botao-loader {
+    position: relative;
+    width: 150px;
+    height: 60px;
+    background: #1a1a1f !important;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
+}
+.info-botao-sapan {
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    height: 65;
+    margin-top: -20px;
+    background-color: #03e9f4;
+    border-radius: 5px;
+    transition: 0.5s;
+
+}
+.info-botao-loader:hover {
+   
+    background: #03e9f4 !important;
+    color: #167BF7;
+    box-sizing: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 200px #03e9f4 ;
+}
+
+@media screen and (max-width: 900px) {
+    .footer {
+        background: #070B11;
+        color: white;
+        padding: 50px;
+        height: 89rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        clip-path: polygon(0 0,100% 0,100% 89%,0% 100%);
+        
+    }
+    .footer-logos {
+        width: 100%;
+        height: 70rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .info-footer-logo-final {
+        width: 100%;
+        height: 40rem;
+        padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+    .div-final-input {
+        width: 100%;
+        height: 15rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .info-mensagem {
+        display: flex;
+        width: 100%;
+        gap: 30px;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    
+  }

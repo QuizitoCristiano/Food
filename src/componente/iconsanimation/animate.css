@@ -1,0 +1,87 @@
+.div-animate {
+    display: flex;
+   
+    width: 100%;
+    /* background-color: rgb(211, 204, 204); */
+    background: linear-gradient(120deg, rgba(1,2,38,1) 0%, rgba(1,1,17,1) 100%);
+    flex-direction: column;
+    height: 30rem;
+    padding: 50px;
+    gap: 30px;
+    clip-path: polygon(0 0,100% 0,100% 100%,0% 70%);
+    
+    
+}
+
+.buttonWrapper {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white ;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-size: 33px;
+    border-radius: 100%;
+}
+
+.wrapper-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   border: 1px solid rgb(91, 87, 87);
+   background-color: rgb(116, 113, 111);
+}
+
+.div-icon-animation {
+    display: flex;
+    pointer-events: none;
+}
+.animate-icon {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+}
+.div-animation-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    
+}
+.div-animation-text h2 {
+    font-size: 1.9rem;
+    
+    padding-top: 1em;
+    text-align: center;
+    color: #093366;
+    font-weight: 700;
+    /* color: #093366; */
+    font-family: 'Inter',sans-serif;
+}
+.div-animation-text p {
+    color: #093366;
+    font-family: 'Inter',sans-serif;
+}
+@media screen and (max-width: 900px) {
+
+    .div-animate {
+        display: flex;
+        width: 100%;
+        background: linear-gradient(120deg, rgba(1,2,38,1) 0%, rgba(1,1,17,1) 100%);
+        flex-direction: column;
+        height: 40rem;
+        padding: 50px;
+        gap: 30px;
+        clip-path: polygon(0 0,100% 0,100% 100%,0% 70%); 
+    }
+}

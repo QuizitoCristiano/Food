@@ -1,0 +1,137 @@
+.Indexlogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 35rem;
+    width: 100%;
+    border: 2px solid  rgb(132, 130, 130);
+    background: rgb(4,7,70);
+    background: linear-gradient(80deg, rgba(4,7,70,0.9053398058252428) 0%, rgba(0,8,6,1) 47%, rgba(2,46,10,0.8907363420427553) 100%);
+    
+}
+.caminhos {
+    border-radius: 3rem;
+    background-color: #fff !important;
+    margin-top: 2em;
+    color: #2A7AE4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .875rem;
+    height: 4.0625em;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: .3s;
+
+   
+}
+.infoWrapper2::before {
+    content: '';
+    position: absolute;
+    border-radius: 20px;
+    bottom: 55px;
+   
+    width: 355px;
+    height: 25%;
+    background: linear-gradient(0deg,#1060a6 10%, transparent);
+    transition: 0.5s;
+    z-index: 1;
+} 
+.infoWrapper1 {
+    display: flex;
+    padding: 3px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 25rem;
+    width: 50%;
+   
+    text-align: left;
+    color: #fff;
+   
+}
+ .nosos-cursus{
+    border-bottom:2px solid #2A7AE4;
+}
+.infoWrapper1 h4{
+    color: #00c86f;
+}
+.infoWrapper1 h2{
+    color: #00c86f;
+}
+
+.infoWrapper2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 25rem;
+    width: 50%;
+    padding: 30px;
+    
+} 
+.infoWrapper2 img {
+    width: 350px;
+    position: relative;
+    height: 300px;
+   
+
+    /* filter: blur(1px); */
+} 
+ .infoWrapper2 img:hover {
+    filter: blur(4px);
+    transition: 0.5s;
+    cursor: pointer;
+    transform: translateY(-50px);
+    
+} 
+
+
+
+
+.school-container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;  
+} 
+
+
+@media (max-width: 1000px){
+    .Indexlogo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 50rem;
+        width: 100%;
+    } 
+
+    .school-container1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 15px;
+        height: 50rem;
+        width: 100%;
+        
+        
+    }
+
+    .infoWrapper2::before {
+        content: '';
+        position: absolute;
+        border-radius: 20px;
+        bottom: -250px;
+        width: 355px;
+        height: 25%;
+        background: linear-gradient(0deg,#1060a6 10%, transparent);
+        transition: 0.5s;
+        z-index: 1;
+    } 
+   
+}
+

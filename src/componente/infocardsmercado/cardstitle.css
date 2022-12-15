@@ -1,0 +1,98 @@
+.school-container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background: #e5f1ff;
+    height: 50rem;
+    width: 100%;
+} 
+
+ .school-banner-text {
+    font-size: 1.9rem;
+    padding-top: 1em;
+    text-align: center;
+    color: #093366;
+    font-weight: 700;
+   
+} 
+ .container-cards-blue {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container-cards-blue {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    gap: 50px;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #093366;
+    font-family: 'Inter',sans-serif;
+    
+}
+
+
+
+
+.container-cards-blue .titulodapagina {
+    font-size: 1rem; 
+    line-height: 1.4;
+    align-self: center;
+  
+}
+.container-title .card_name {
+    font-size: 1.4375rem;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #2A7AE4;
+  
+    text-align: center;
+   
+}
+.div-cards-school:hover {
+    transform: translateY(-50px);
+    transition: 0.5s;
+}
+
+@media (max-width: 1000px){
+
+    .school-container2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 55rem;
+        width: 100%;
+        padding: 30px;
+       
+    }
+    .container-cards-blue{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 15px;
+        font-weight: 500;
+        height: 20rem;
+        padding: 30px;
+       
+    } 
+    .titulodapagina {
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        font-size: 10px;
+        padding: 10px;
+        
+    }
+    /* .div-cards-school:hover {
+        transform: translateY(-20px);
+        transition: 0.5s;
+    } */
+
+}
