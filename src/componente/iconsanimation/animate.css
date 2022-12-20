@@ -63,13 +63,14 @@
     
     padding-top: 1em;
     text-align: center;
-    color: #093366;
-    font-weight: 700;
     /* color: #093366; */
+    font-weight: 700;
+    color: #00c86f;
     font-family: 'Inter',sans-serif;
 }
 .div-animation-text p {
-    color: #093366;
+    /* color: #093366; */
+    color: rgb(187, 184, 184);
     font-family: 'Inter',sans-serif;
 }
 @media screen and (max-width: 900px) {

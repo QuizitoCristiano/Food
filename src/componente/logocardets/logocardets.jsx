@@ -1,14 +1,22 @@
 import React from "react";
 import "./logocardets.css"
 import { BsArrowRight } from "react-icons/bs";
+import { useEffect } from "react";
+import aos from "aos"
+import "aos/dist/aos.css"
 export const Logocardets = () => {
+
+    useEffect(() => {
+        aos.init({ duration: 800 })
+    }, []);
+
     return (
         <>
             <div className="logocardets">
                 <h2>Onde você está em back-end?</h2>
                 <div className="container-card">
 
-                    <div className="div-cards-school">
+                    <div className="div-cards-school" data-aos="fade-left">
                         <div className="school-text--card">
 
                             Começando
@@ -22,7 +30,7 @@ export const Logocardets = () => {
                             <BsArrowRight className="icon" />
                         </div>
                     </div>
-                    <div className="div-cards-school">
+                    <div className="div-cards-school" data-aos="fade-right">
                         <div className="school-text--card">
 
                             Experimente
@@ -36,7 +44,7 @@ export const Logocardets = () => {
                             <BsArrowRight className="icon" />
                         </div>
                     </div>
-                    <div className="div-cards-school">
+                    <div className="div-cards-school" data-aos="fade-up">
                         <div className="school-text--card">
 
                             Novo-Dev

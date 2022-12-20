@@ -6,7 +6,8 @@ export const Card = ({
 }) => {
     return (<>
         <div className="gardestext">
-            <div className="container-box" data-aos={data_aos}
+            <div className="container-box"
+                data-aos={data_aos}
                 data-aos-anchor-placement="center-bottom">
                 <div className="info-imagens">
                     <img src={photo} alt="" />
